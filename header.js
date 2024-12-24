@@ -94,7 +94,7 @@ document.write(` <header class="header ">
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">Trade Fair
+                            <a class="nav-link" href="TradeFair.html">Trade Fair
                             </a>
                         </li>
                         <li class="nav-item dropdown">
@@ -102,16 +102,16 @@ document.write(` <header class="header ">
                                 data-bs-toggle="dropdown">About</a>
                             <ul class="dropdown-menu fade-down">
                                 <li>
-                                    <a class="dropdown-item" href="service.html">Director Desk</a>
+                                    <a class="dropdown-item" href="Director.html">Director Desk</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="service-2.html">InfraStructure</a>
+                                    <a class="dropdown-item" href="Infrastructure.html">InfraStructure</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="service-single.html">Mission Vision</a>
+                                    <a class="dropdown-item" href="Mission.html">Mission Vision</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="service-single.html">Quality</a>
+                                    <a class="dropdown-item" href="Quality.html">Quality</a>
                                 </li>
                             </ul>
                         </li>

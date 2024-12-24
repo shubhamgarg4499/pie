@@ -9,7 +9,7 @@ document.write(`  <footer class="footer-area">
         <div class="col-lg-5">
           <div class="footer-widget-box about-us">
             <a href="/" class="footer-logo">
-              <img src="assets/company-assets/logo.png" alt="" />
+              <img src="assets/company-assets/logo-white.png" alt="" />
             </a>
             <p class="mb-4">
               Leading Manufactureres for Various Solvent borne adhesives, water-based adhesives, acrylic emulsions,
@@ -51,7 +51,7 @@ document.write(`  <footer class="footer-area">
                 <a href="contact.html"><i class="far fa-angle-double-right"></i>Contact Us</a>
               </li>
               <li>
-                <a href="terms.html"><i class="far fa-angle-double-right"></i>Terms Of
+                <a href="TermPolicy.html"><i class="far fa-angle-double-right"></i>Terms Of
                   Service</a>
               </li>
               <li>

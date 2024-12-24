@@ -49,67 +49,7 @@
 
 
     <!-- sidebar-popup -->
-    <div class="sidebar-popup offcanvas offcanvas-end" tabindex="-1" id="sidebarPopup">
-        <div class="offcanvas-header">
-            <a href="index.html" class="sidebar-popup-logo">
-                <img src="assets/img/logo/logo.png" alt="">
-            </a>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
-                <i class="far fa-xmark"></i>
-            </button>
-        </div>
-        <div class="sidebar-popup-wrap offcanvas-body">
-            <div class="sidebar-popup-content">
-                <div class="sidebar-popup-about">
-                    <h4>About Us</h4>
-                    <p>There are many variations of passages available sure there majority have suffered alteration in
-                        some form by inject humour or randomised words which don't look even slightly believable.</p>
-                </div>
-                <div class="sidebar-popup-contact">
-                    <h4>Contact Info</h4>
-                    <ul>
-                        <li>
-                            <div class="icon">
-                                <i class="far fa-envelope"></i>
-                            </div>
-                            <div class="content">
-                                <h6>Email</h6>
-                                <a
-                                    href="https://live.themewild.com/cdn-cgi/l/email-protection#d1b8bfb7be91b4a9b0bca1bdb4ffb2bebc"><span
-                                        class="__cf_email__"
-                                        data-cfemail="4f262129200f2a372e223f232a612c2022">[email&#160;protected]</span></a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="icon">
-                                <i class="far fa-phone"></i>
-                            </div>
-                            <div class="content">
-                                <h6>Phone</h6>
-                                <a href="tel:+21236547898">+2 123 654 7898</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="icon">
-                                <i class="far fa-location-dot"></i>
-                            </div>
-                            <div class="content">
-                                <h6>Address</h6>
-                                <a href="#">25/B Milford Road, New York</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="sidebar-popup-social">
-                    <h4>Follow Us</h4>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-x-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <script src="sidebar.js"></script>
     <!-- sidebar-popup end -->
 
 
@@ -130,24 +70,25 @@
 
         <!-- about area -->
         <div class="about-area py-120">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="about-left wow fadeInLeft" data-wow-delay=".25s">
                             <div class="about-img">
                                 <div class="row">
-                                    <div class="col-6">
-                                        <img class="img-1" src="assets/company-assets/bottles.jpg" alt="" />
-                                    </div>
-                                    <div class="col-6">
-                                        <img class="img-2" src="assets/company-assets/bottle2.jpg" alt="" />
+                                    <!-- <div class="col-6">
+                          <img class="img-1" src="assets/company-assets/bottles.jpg" alt="" />
+                        </div> -->
+                                    <div class="col-12 my-auto">
+                                        <img class="rounded-0 w-100   my-auto" src="assets/company-assets/offices.jpg"
+                                            alt="" style="aspect-ratio: 1/1;" />
                                     </div>
                                 </div>
                             </div>
-                            <div class="about-experience">
-                                <h5>2017</h5>
-                                <p>Founded On</p>
-                            </div>
+                            <!-- <div class="about-experience">
+                      <h5>2017</h5>
+                      <p>Founded On</p>
+                    </div> -->
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -206,20 +147,7 @@
         <div class="counter-area pt-40 pb-40">
             <div class="container">
                 <div class="row g-4 justify-content-center">
-                    <!-- <div class="col-md-6 col-lg-4 col-xl-3">
-                  <div class="counter-box wow fadeInUp" data-wow-delay=".25s">
-                    <div class="icon">
-                      <img src="assets/img/icon/solar.svg" alt="" />
-                    </div>
-                    <div class="content">
-                      <div class="info">
-                        <span class="counter" data-count="+" data-to="150" data-speed="3000">150</span>
-                        <span class="unit">Hundreds</span>
-                      </div>
-                      <h6 class="title">Projects Done</h6>
-                    </div>
-                  </div>
-                </div> -->
+
                     <div class="col-md-6 col-lg-4 col-xl-3">
                         <div class="counter-box wow fadeInDown" data-wow-delay=".25s">
                             <div class="icon">
@@ -241,7 +169,7 @@
                             </div>
                             <div class="content">
                                 <div class="info">
-                                    <span class="counter" data-count="+" data-to="150" data-speed="3000">150</span>
+                                    <span class="counter" data-count="+" data-to="50" data-speed="3000">150</span>
                                     <span class="unit">+</span>
                                 </div>
                                 <h6 class="title">Experts Staff</h6>
@@ -568,7 +496,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="choose-img wow fadeInRight" data-wow-delay=".25s">
-                            <img class="img-1" src="assets/company-assets/girl-painting.jpg" alt="" />
+                            <img class="img-1 w-100 h-100" src="assets/company-assets/36.jpg" alt="" />
                             <!-- <img class="img-2" src="assets/company-assets/productsimg/pb-501.png" alt="" /> -->
                             <img class="shape" src="assets/img/shape/06.png" alt="" />
                         </div>
@@ -577,6 +505,7 @@
             </div>
         </div>
         <!-- choose area end -->
+
 
 
         <!-- partner area -->
